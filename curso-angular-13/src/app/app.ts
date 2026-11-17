@@ -1,13 +1,13 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { FirstComponent } from './components/first-component/first-component';
 import { ParentDataComponent } from './components/parent-data-component/parent-data-component';
 import { Directives } from './components/directives/directives';
 import { IfRender } from './components/if-render/if-render';
 import { Eventos } from './components/eventos/eventos';
+import { Emitter } from './components/emitter/emitter';
 
 @Component({
-  imports: [RouterOutlet, FirstComponent, ParentDataComponent, Directives, IfRender, Eventos],
+  imports: [FirstComponent, ParentDataComponent, Directives, IfRender, Eventos, Emitter],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
