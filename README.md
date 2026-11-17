@@ -1,0 +1,1 @@
+*Repositório contendo estudos e projetos em Angular*
