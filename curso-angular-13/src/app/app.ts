@@ -2,9 +2,10 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FirstComponent } from './components/first-component/first-component';
 import { ParentDataComponent } from './components/parent-data-component/parent-data-component';
+import { Directives } from './components/directives/directives';
 
 @Component({
-  imports: [RouterOutlet, FirstComponent, ParentDataComponent],
+  imports: [RouterOutlet, FirstComponent, ParentDataComponent, Directives],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
