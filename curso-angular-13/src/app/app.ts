@@ -3,9 +3,10 @@ import { RouterOutlet } from '@angular/router';
 import { FirstComponent } from './components/first-component/first-component';
 import { ParentDataComponent } from './components/parent-data-component/parent-data-component';
 import { Directives } from './components/directives/directives';
+import { IfRender } from './components/if-render/if-render';
 
 @Component({
-  imports: [RouterOutlet, FirstComponent, ParentDataComponent, Directives],
+  imports: [RouterOutlet, FirstComponent, ParentDataComponent, Directives, IfRender],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
